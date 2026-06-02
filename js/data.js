@@ -27,7 +27,7 @@
       { id: "las_vegas", name: "Las Vegas", travelCost: 520, heatMod: 8, turfMod: 16, priceMod: 1.32, note: "Wild prices and scammy vendors." }
     ],
     items: [
-       { id: "weed", name: "weed", min: 45, max: 260, volatility: 0.34, risk: 2, category: "cannabis" },
+        { id: "weed", name: "weed", min: 45, max: 260, volatility: 0.34, risk: 2, category: "cannabis" },
       { id: "mushrooms", name: "mushrooms", min: 60, max: 300, volatility: 0.42, risk: 3, category: "psychedelics" },
       { id: "Acid", name: "Acid", min: 65, max: 325, volatility: 0.27, risk: 4, category: "psychedelics" },
       { id: "dmt", name: "dmt", min: 70, max: 350, volatility: 0.36, risk: 5, category: "psychedelics" },

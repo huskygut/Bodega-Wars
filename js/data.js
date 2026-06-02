@@ -17,7 +17,7 @@
       coins: "assets/images/coin-sheet.png"
     },
     cities: [
-      { id: "brock", name: "Brock", travelCost: 80, heatMod: -8, turfMod: -5, priceMod: 0.85, note: "Tiny market, weird swings, everyone knows too much." },
+      { id: "Los Angles", name: "Brock", travelCost: 80, heatMod: -8, turfMod: -5, priceMod: 0.85, note: "Tiny market, weird swings, everyone knows too much." },
       { id: "omaha", name: "Omaha", travelCost: 160, heatMod: 0, turfMod: 0, priceMod: 1.0, note: "Balanced starter market with decent volume." },
       { id: "lincoln", name: "Lincoln", travelCost: 130, heatMod: 8, turfMod: -4, priceMod: 0.95, note: "More law pressure, less rival noise." },
       { id: "kansas_city", name: "Kansas City", travelCost: 240, heatMod: 4, turfMod: 10, priceMod: 1.08, note: "Better profits, tougher rivals." },
@@ -27,16 +27,16 @@
       { id: "new_york", name: "New York", travelCost: 720, heatMod: 20, turfMod: 18, priceMod: 1.45, note: "Huge money. Huge danger. Tiny patience." }
     ],
     items: [
-      { id: "mystery_vapes", name: "Mystery Vapes", min: 45, max: 260, volatility: 0.34, risk: 6, category: "common" },
-      { id: "rare_hot_sauce", name: "Rare Hot Sauce", min: 30, max: 220, volatility: 0.42, risk: 3, category: "food" },
-      { id: "imported_snacks", name: "Imported Snacks", min: 20, max: 140, volatility: 0.27, risk: 2, category: "food" },
-      { id: "bootleg_chargers", name: "Bootleg Chargers", min: 65, max: 420, volatility: 0.36, risk: 5, category: "tech" },
-      { id: "counterfeit_ai_chips", name: "Counterfeit AI Chips", min: 240, max: 1800, volatility: 0.55, risk: 12, category: "tech" },
-      { id: "gas_station_sushi", name: "Gas Station Sushi", min: 10, max: 95, volatility: 0.75, risk: 8, category: "weird" },
-      { id: "quantum_moon_cakes", name: "Quantum Moon Cakes", min: 180, max: 1500, volatility: 0.62, risk: 10, category: "rare" },
-      { id: "off_brand_sneakers", name: "Off-Brand Sneakers", min: 90, max: 720, volatility: 0.31, risk: 4, category: "luxury" },
-      { id: "backroom_energy_drinks", name: "Backroom Energy Drinks", min: 25, max: 180, volatility: 0.44, risk: 5, category: "common" },
-      { id: "cursed_phone_cases", name: "Cursed Phone Cases", min: 75, max: 650, volatility: 0.5, risk: 7, category: "weird" }
+      { id: "weed", name: "weed", min: 45, max: 260, volatility: 0.34, risk: 2, category: "common" },
+      { id: "mushrooms", name: "mushrooms", min: 30, max: 220, volatility: 0.42, risk: 5, category: "food" },
+      { id: "acid", name: "acid", min: 20, max: 140, volatility: 0.27, risk: 5, category: "food" },
+      { id: "mdma", name: "mdma", min: 65, max: 420, volatility: 0.36, risk: 6, category: "tech" },
+      { id: "dmt", name: "dmt", min: 240, max: 1800, volatility: 0.55, risk: 6, category: "tech" },
+      { id: "cocaine", name: "cocaine", min: 10, max: 95, volatility: 0.75, risk: 8, category: "weird" },
+      { id: "acid", name: "acid", min: 180, max: 1500, volatility: 0.62, risk: 6, category: "rare" },
+      { id: "meth", name: "meth", min: 90, max: 720, volatility: 0.31, risk: 9, category: "luxury" },
+      { id: "heroin", name: "heroin", min: 25, max: 180, volatility: 0.44, risk: 10, category: "common" },
+      { id: "ketamine", name: "ketamine", min: 75, max: 650, volatility: 0.5, risk: 3, category: "weird" }
     ],
     coins: {
       fraggle: { id: "fraggle", name: "FraggleCoin", symbol: "FRAG", start: 100, min: 15, volatility: 0.15, trace: 0.7 },

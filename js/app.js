@@ -671,7 +671,7 @@
       ${statsHtml()}
       <section class="screen-img" style="background-image:url('${data.images.rivals}')"></section>
       <section class="card">
-        <h3>The Coupon Cartel</h3>
+        <h3>The Kill Cartel</h3>
         <p>Rivals apply Turf Pressure when you dominate a city, undercut prices, or get too loud. The Coupon Cartel is not impressed by your little spreadsheet empire.</p>
         <div class="table-wrap">
           <table>

@@ -1,2 +1,5 @@
-# Bodega-Wars
-Bodega Wars is a browser-based street-market empire simulator inspired by classic buy-low/sell-high trading games. Build cash, manage risk, store goods in your safe house, deal with rival crews, dodge Heat, trade fake coins, use Dark Terminals, and eventually buy your own bodega.
+Bodega Wars is an original fictional parody browser game by Huskygut Studios.
+
+© 2026 Huskygut Studios. All rights reserved.
+
+Bodega Wars is a fictional parody game. All markets, currencies, goods, vendors, characters, and events are made up for entertainment.

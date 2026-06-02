@@ -1,0 +1,48 @@
+Codex task for Bodega Wars
+
+Review this static web app project and improve it without changing the game into a real-world crime or crypto guide.
+
+Rules
+Everything must stay fictional parody.
+Do not add real dark web instructions.
+Do not add real crypto wallets.
+Do not add real illegal marketplace names.
+Do not add real buying instructions.
+Do not use the creator's real name in public project files.
+Credit should be Huskygut Studios.
+
+Project goal
+Bodega Wars is a browser game.
+Tagline: A greasy street-market empire simulator where every profit has a problem.
+
+Tech
+HTML
+CSS
+JavaScript
+No build step
+No server required
+GitHub Pages ready from repo root
+
+First review checklist
+Make sure index.html opens locally.
+Make sure no console errors happen on startup.
+Make sure New Game works.
+Make sure Continue works after a save exists.
+Make sure Buy and Sell work.
+Make sure Travel works.
+Make sure Safe House deposit/withdraw and stash/withdraw work.
+Make sure Crypto Carl conversion works.
+Make sure Dark Terminals orders work and arrive after advancing days.
+Make sure Loan Shark Larry debt payments work.
+Make sure Your Bodega can be purchased and used.
+Make sure Rename Goods works and survives refresh.
+Make sure Export Save and Import Save work.
+Make sure mobile layout is readable.
+
+Possible first improvements
+Add a simple tutorial overlay.
+Add a mute-ready sound system, but no sound files unless added separately.
+Add more random event variety.
+Add basic price history display for coins.
+Add small UI icons using cropped images or emoji placeholders.
+Add PWA files only after the base game works.

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bodega Wars</title>
+  <meta name="description" content="A greasy street-market empire simulator where every profit has a problem.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <noscript>Bodega Wars needs JavaScript turned on.</noscript>
+
+  <div id="app" class="app-shell">
+    <header class="topbar">
+      <button id="mobileMenuButton" class="small-btn ghost mobile-only" type="button">Menu</button>
+      <div class="brand-lockup">
+        <span class="mini-label">Huskygut Studios presents</span>
+        <h1>Bodega Wars</h1>
+        <p>A greasy street-market empire simulator where every profit has a problem.</p>
+      </div>
+      <div class="save-chip" id="saveStatus">No save loaded</div>
+    </header>
+
+    <div class="layout">
+      <nav id="nav" class="side-nav" aria-label="Game navigation"></nav>
+      <main id="screen" class="screen" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

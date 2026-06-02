@@ -1,0 +1,107 @@
+Bodega Wars v0.1.7 Money System Notes
+
+This update improves the fake economy so Dark Terminals has a real gameplay advantage over street dealers.
+
+Changes
+
+Dark Terminals advantage
+
+Dark Terminals now uses wholesale hookup pricing instead of feeling like another market.
+
+The three fictional hookups are designed around different tradeoffs:
+
+Uncle Modem
+Deepest discount
+Accepts FraggleCoin
+Highest bunk chance
+Medium heat
+Slow delivery
+
+Packet Patty
+Balanced discount
+Accepts OnionCoin
+Better quality than Uncle Modem
+Lower risk
+Fast delivery
+
+Shadow Sal
+Premium hookup
+Accepts DevilCoin
+Still under street after expected coin conversion fees
+Lowest heat
+Lowest bunk chance
+
+Bulk discounts
+
+Dark Terminals orders now get additional quantity discounts:
+
+10 or more units gives 5 percent bulk discount
+25 or more units gives 10 percent bulk discount
+50 or more units gives 15 percent bulk discount
+
+Why use Dark Terminals?
+
+The street dealers are instant, but they use street prices and create Hot Cash and street pressure.
+
+Dark Terminals requires fake coins and delivery time, but gives:
+
+Lower unit costs
+Bulk discounts
+Potentially lower heat
+Shipments delivered to the Safe House
+Better margins when the player buys fake coins low and spends them after the price rises
+
+Risks still remain:
+
+Ghosted order chance
+Bunk goods chance
+Delayed delivery
+Coin conversion fees
+Coin price volatility
+
+Crypto report
+
+A Daily Crypto Report now appears on the Crypto Carl screen.
+
+It shows:
+
+Old price
+New price
+Daily percent change
+A short market note for FraggleCoin, OnionCoin, and DevilCoin
+Recent report history
+
+The report is generated each time the player ends a day.
+
+Safety note
+
+All currencies, markets, hookups, vendors, goods, and events are fictional parody content. No real crypto wallets, real marketplaces, real dark web instructions, or real-world transaction steps are included.
+
+
+Street Hookups
+
+The old single street market is now a three-person street hookup system.
+
+Cheder Bob
+Lowest buy prices
+Highest bunk chance
+Moderate heat and turf pressure
+Good for cheap flips when the player accepts risk
+
+Crazy Eyes
+Normal buy prices
+Best sell payouts
+Higher heat and turf pressure
+Good when the player wants cash fast
+
+Walter Whiteboard
+Highest buy prices
+Lowest bunk chance
+Lower heat and turf pressure
+Good when the player wants safer instant street buys
+
+Why this improves the money loop
+
+Street Hookups are instant and easy, but inconsistent.
+Dark Terminals requires fake coin conversion and delivery time, but has wholesale pricing, bulk discounts, lower unit costs, and delivery to the Safe House.
+Crypto trading remains useful because buying coins low and spending them later improves terminal margins.

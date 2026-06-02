@@ -1,0 +1,37 @@
+Bodega Wars v0.1.7 Street Hookup Notes
+
+This update changes the public street market into three fictional street hookups.
+
+Cheder Bob
+Cheap street hookup.
+Buy price is below the listed market price.
+Sell payout is lower.
+Highest chance of bunk goods.
+Good for risky cheap buying.
+
+Crazy Eyes
+Wild-margin hustler.
+Buy price is close to market.
+Sell payout is the best of the three.
+Higher heat and turf pressure.
+Good for fast Hot Cash.
+
+Walter Whiteboard
+Clean-quality nerd.
+Buy price is higher.
+Sell payout is normal.
+Lowest bunk chance and lower pressure.
+Good for safer instant street buys.
+
+Dark Terminals balance
+
+Dark Terminals should still be the best bulk-buying system.
+The player pays coin conversion fees and waits for delivery, so terminal hookups use wholesale discounts and bulk discounts.
+Street Hookups are for speed.
+Dark Terminals are for margins.
+Crypto is for speculation and timing.
+
+Safety note
+
+All names, markets, goods, currencies, hookups, vendors, and events are fictional parody content.
+No real marketplaces, real crypto instructions, real illegal instructions, or real-world transaction steps are included.

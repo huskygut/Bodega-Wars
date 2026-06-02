@@ -1,0 +1,38 @@
+Codex deploy checklist for Bodega Wars
+
+Credit must remain:
+Huskygut Studios
+
+Public domain target:
+https://www.bodegawars.com
+
+Before deployment, verify:
+index.html is in repo root
+CNAME is in repo root
+CNAME contains www.bodegawars.com
+.nojekyll is in repo root
+css/styles.css loads
+js/data.js loads
+js/app.part1.js through js/app.part8.js load
+all images load from assets/images/
+localStorage save works
+Export Save works
+Import Save works
+No console errors on startup
+
+GitHub Pages settings:
+Source: Deploy from a branch
+Branch: main
+Folder: /root
+Custom domain: www.bodegawars.com
+Enforce HTTPS: enabled after certificate is ready
+
+DNS for www:
+CNAME www huskygut.github.io
+
+Do not add:
+real dark web instructions
+real crypto wallets
+real illegal marketplace names
+real-world buying guidance
+the creator's real name in public project files

@@ -1,0 +1,28 @@
+Bodega Wars v0.1.9 Audit Fixes
+By Huskygut Studios
+
+Scope
+This update keeps Bodega Wars as a plain static HTML, CSS, and JavaScript web app for GitHub Pages.
+It keeps all content fictional and game-only.
+It does not add real-world crime, dark web, drug-buying, crypto-wallet, illegal marketplace, private location, or personal address instructions.
+
+Fixes
+1. Fixed fractional cash-to-coin conversion so cash amounts below one whole dollar cannot create fake coins for free.
+2. Cash-to-coin conversion now verifies that cash was actually spent before adding fake coin balance.
+3. Fake coin-to-cash conversion now returns whole-dollar Street Cash.
+4. Added same-day resale protection for newly purchased street goods to prevent instant buy/sell money loops.
+5. End Day clears same-day resale protection so goods can be sold normally on a later day or after travel.
+6. Imported and continued saves now sanitize money, meters, inventory, capacity, coins, coin prices, bodega data, market prices, pending orders, logs, reports, and custom item names.
+7. Pending Dark Terminals orders now reserve Safe House space before payment.
+8. Safe House stashing respects space reserved for pending Dark Terminals orders.
+9. Dark Terminals delivery uses open reserved-safe capacity, reducing lost paid orders from full storage.
+10. The bodega purchase button now matches the actual pocket-cash purchase rule.
+11. Random street cash losses now target exposed Street Cash and Hot Cash instead of Register Cash.
+12. Removed stale hidden mobile menu wiring now that mobile navigation is a visible horizontal row.
+13. Added labels to key transaction inputs for clearer mobile and accessibility behavior.
+14. Updated visible project version notes to v0.1.9 while preserving existing historical notes.
+
+Testing Notes
+JavaScript syntax was checked by parsing js/data.js and the ordered js/app.part*.js runtime files.
+A local static server returned HTTP 200 for index.html.
+A controlled game-flow harness covered new game, street hookup buys, selling, End Day, fake coin conversion, Dark Terminals order and delivery, Safe House deposit and withdrawal, bodega purchase, register conversion, save/export/import/reset, and exploit probes.

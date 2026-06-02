@@ -1,0 +1,28 @@
+Bodega Wars v0.1.9 Refactor Notes
+By Huskygut Studios
+
+Scope
+This was a controlled maintainability pass, not an architecture rewrite.
+The app remains plain HTML, CSS, and JavaScript.
+No framework, build system, TypeScript conversion, or project rename was introduced.
+
+Refactor Work Completed
+1. Added small state-normalization helpers for finite numbers, whole-dollar money, meters, item maps, custom names, logs, and fake coin reports.
+2. Replaced shallow save migration with bounded save cleanup.
+3. Centralized carried inventory count and Safe House inventory count through shared map-count logic.
+4. Added explicit cash-spending helpers so normal purchases and exposed street losses can use different cash pools.
+5. Added Safe House reservation helpers for pending Dark Terminals orders.
+6. Added same-day street-buy tracking so the market can block instant resale loops without changing the whole market model.
+7. Removed stale mobile menu state wiring from index.html, css/styles.css, and the app runtime.
+8. Split the browser runtime into ordered static js/app.part*.js files so the project stays plain JavaScript while remaining easy to publish through GitHub Pages.
+
+What Did Not Change
+Project name did not change.
+Public credit remains Huskygut Studios.
+The app remains GitHub Pages compatible.
+The game remains fictional parody content.
+No real-world purchasing, wallet, marketplace, address, or private-location instructions were added.
+
+Suggested Next Refactor Pass
+The next safe pass would be a render helper pass across the ordered js/app.part*.js runtime files:
+extract repeated card, badge, input, and table row rendering helpers while keeping all existing screens and gameplay rules intact.

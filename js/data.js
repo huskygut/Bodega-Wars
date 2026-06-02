@@ -1,6 +1,6 @@
 (function () {
   window.BW_DATA = {
-    version: "0.1.0",
+    version: "0.1.9",
     studio: "Huskygut Studios",
     maxDays: 30,
     images: {
@@ -17,26 +17,71 @@
       coins: "assets/images/coin-sheet.png"
     },
     cities: [
-      { id: "Los Angles", name: "Brock", travelCost: 80, heatMod: -8, turfMod: -5, priceMod: 0.85, note: "Tiny market, weird swings, everyone knows too much." },
-      { id: "omaha", name: "Omaha", travelCost: 160, heatMod: 0, turfMod: 0, priceMod: 1.0, note: "Balanced starter market with decent volume." },
-      { id: "lincoln", name: "Lincoln", travelCost: 130, heatMod: 8, turfMod: -4, priceMod: 0.95, note: "More law pressure, less rival noise." },
-      { id: "kansas_city", name: "Kansas City", travelCost: 240, heatMod: 4, turfMod: 10, priceMod: 1.08, note: "Better profits, tougher rivals." },
-      { id: "chicago", name: "Chicago", travelCost: 420, heatMod: 16, turfMod: 12, priceMod: 1.25, note: "Big market, big heat, big mistakes." },
-      { id: "denver", name: "Denver", travelCost: 360, heatMod: 5, turfMod: 4, priceMod: 1.12, note: "Fake coin weirdos love this place." },
-      { id: "las_vegas", name: "Las Vegas", travelCost: 520, heatMod: 8, turfMod: 15, priceMod: 1.3, note: "Wild prices and scammy vendors." },
-      { id: "new_york", name: "New York", travelCost: 720, heatMod: 20, turfMod: 18, priceMod: 1.45, note: "Huge money. Huge danger. Tiny patience." }
+      { id: "new_york", name: "New York", travelCost: 180, heatMod: 5, turfMod: 6, priceMod: 1.05, note: "Huge volume, fast swings, zero patience." },
+      { id: "los_angeles", name: "Los Angeles", travelCost: 420, heatMod: 10, turfMod: 9, priceMod: 1.18, note: "Big margins, bigger drama, expensive everything." },
+      { id: "chicago", name: "Chicago", travelCost: 360, heatMod: 13, turfMod: 12, priceMod: 1.16, note: "Big market, big heat, big mistakes." },
+      { id: "miami", name: "Miami", travelCost: 480, heatMod: 9, turfMod: 15, priceMod: 1.28, note: "Flashy profits and wild street pressure." },
+      { id: "atlanta", name: "Atlanta", travelCost: 330, heatMod: 6, turfMod: 10, priceMod: 1.1, note: "Fast routes, loud rivals, solid volume." },
+      { id: "dallas", name: "Dallas", travelCost: 390, heatMod: 7, turfMod: 11, priceMod: 1.14, note: "Wide market with sharp price jumps." },
+      { id: "seattle", name: "Seattle", travelCost: 500, heatMod: 4, turfMod: 7, priceMod: 1.2, note: "Fake coin weirdos love this place." },
+      { id: "las_vegas", name: "Las Vegas", travelCost: 520, heatMod: 8, turfMod: 16, priceMod: 1.32, note: "Wild prices and scammy vendors." }
     ],
     items: [
-      { id: "weed", name: "weed", min: 45, max: 260, volatility: 0.34, risk: 2, category: "common" },
-      { id: "mushrooms", name: "mushrooms", min: 30, max: 220, volatility: 0.42, risk: 5, category: "food" },
-      { id: "acid", name: "acid", min: 20, max: 140, volatility: 0.27, risk: 5, category: "food" },
-      { id: "mdma", name: "mdma", min: 65, max: 420, volatility: 0.36, risk: 6, category: "tech" },
-      { id: "dmt", name: "dmt", min: 240, max: 1800, volatility: 0.55, risk: 6, category: "tech" },
-      { id: "cocaine", name: "cocaine", min: 10, max: 95, volatility: 0.75, risk: 8, category: "weird" },
-      { id: "acid", name: "acid", min: 180, max: 1500, volatility: 0.62, risk: 6, category: "rare" },
-      { id: "meth", name: "meth", min: 90, max: 720, volatility: 0.31, risk: 9, category: "luxury" },
-      { id: "heroin", name: "heroin", min: 25, max: 180, volatility: 0.44, risk: 10, category: "common" },
-      { id: "ketamine", name: "ketamine", min: 75, max: 650, volatility: 0.5, risk: 3, category: "weird" }
+       { id: "weed", name: "weed", min: 45, max: 260, volatility: 0.34, risk: 2, category: "cannabis" },
+      { id: "mushrooms", name: "mushrooms", min: 60, max: 300, volatility: 0.42, risk: 3, category: "psychedelics" },
+      { id: "Acid", name: "Acid", min: 65, max: 325, volatility: 0.27, risk: 4, category: "psychedelics" },
+      { id: "dmt", name: "dmt", min: 70, max: 350, volatility: 0.36, risk: 5, category: "psychedelics" },
+      { id: "mdma", name: "mdma", min: 100, max: 400, volatility: 0.55, risk: 10, category: "stimulant" },
+      { id: "Ketamine", name: "Ketamine", min: 25, max: 125, volatility: 0.75, risk: 8, category: "anesthetic" },
+      { id: "cocaine", name: "cocaine", min: 180, max: 1500, volatility: 0.62, risk: 10, category: "Stimulant" },
+      { id: "meth", name: "meth", min: 110, max: 720, volatility: 0.31, risk: 11, category: "luxury" },
+      { id: "heroin", name: "heroin", min: 150, max: 1100, volatility: 0.44, risk: 15, category: "opioid" },
+      { id: "benzos", name: "benzos", min: 75, max: 650, volatility: 0.5, risk: 7, category: "benzodiazepines" }
+    ],
+
+    streetHookups: [
+      {
+        id: "cheder_bob",
+        name: "Cheder Bob",
+        buyMod: 0.88,
+        sellMod: 0.92,
+        bunk: 0.12,
+        heat: 8,
+        turf: 7,
+        qualityMin: 0.72,
+        qualityMax: 1.0,
+        style: "Cheap street hookup",
+        image: "assets/images/cheder-bob.png",
+        tagline: "Lowest street buy price, but he occasionally hands you a bag of pure disappointment."
+      },
+      {
+        id: "crazy_eyes",
+        name: "Crazy Eyes",
+        buyMod: 1.0,
+        sellMod: 1.08,
+        bunk: 0.07,
+        heat: 11,
+        turf: 11,
+        qualityMin: 0.84,
+        qualityMax: 1.08,
+        style: "Wild-margin hustler",
+        image: "assets/images/crazy-eyes.png",
+        tagline: "Fair buy price and the best sell payout, but the street pressure gets loud."
+      },
+      {
+        id: "walter_whiteboard",
+        name: "Walter Whiteboard",
+        buyMod: 1.12,
+        sellMod: 1.0,
+        bunk: 0.02,
+        heat: 5,
+        turf: 5,
+        qualityMin: 0.96,
+        qualityMax: 1.14,
+        style: "Clean-quality nerd",
+        image: "assets/images/walter-whiteboard.png",
+        tagline: "Costs more up front, but the goods are usually clean and the drama is lower."
+      }
     ],
     coins: {
       fraggle: { id: "fraggle", name: "FraggleCoin", symbol: "FRAG", start: 100, min: 15, volatility: 0.15, trace: 0.7 },
@@ -51,11 +96,49 @@
       { id: "onion_to_fraggle", from: "onion", to: "fraggle", fee: 0.10, label: "OnionCoin to FraggleCoin" },
       { id: "fraggle_to_cash", from: "fraggle", to: "streetCash", fee: 0.08, label: "FraggleCoin to Cash" }
     ],
-    vendors: [
-      { id: "darrkmart", name: "DarrkMart", coin: "devil", priceMod: 0.78, scam: 0.18, delay: 2, heat: 3, tagline: "Probably ships. Probably legal somewhere." },
-      { id: "packet_goblin", name: "Packet Goblin Market", coin: "onion", priceMod: 0.9, scam: 0.13, delay: 1, heat: 8, tagline: "Your package may arrive. Your dignity may not." },
-      { id: "shadow_bodega", name: "ShadowBodega", coin: "devil", priceMod: 0.72, scam: 0.24, delay: 3, heat: 2, tagline: "DevilCoin only. We do not accept baby coins." },
-      { id: "uncle_modem", name: "Uncle Modem Wholesale", coin: "fraggle", priceMod: 0.96, scam: 0.06, delay: 2, heat: 12, tagline: "Slow, dusty, oddly reliable." }
+    hookups: [
+      {
+        id: "uncle_modem",
+        name: "Uncle Modem",
+        coin: "fraggle",
+        priceMod: 0.42,
+        ghost: 0.04,
+        bunk: 0.14,
+        delay: 2,
+        heat: 10,
+        qualityMin: 0.65,
+        qualityMax: 0.92,
+        style: "Cheap hookup",
+        tagline: "Deep wholesale discount. Biggest chance of bunk filler, but the margins are nasty."
+      },
+      {
+        id: "packet_patty",
+        name: "Packet Patty",
+        coin: "onion",
+        priceMod: 0.52,
+        ghost: 0.05,
+        bunk: 0.07,
+        delay: 1,
+        heat: 6,
+        qualityMin: 0.82,
+        qualityMax: 1.02,
+        style: "Balanced hookup",
+        tagline: "Best middle path: real savings, decent quality, and fewer bad surprises in the box."
+      },
+      {
+        id: "shadow_sal",
+        name: "Shadow Sal",
+        coin: "devil",
+        priceMod: 0.58,
+        ghost: 0.03,
+        bunk: 0.03,
+        delay: 2,
+        heat: 2,
+        qualityMin: 0.95,
+        qualityMax: 1.12,
+        style: "Premium hookup",
+        tagline: "Premium hookup. Costs more than the others, but still beats street after coin fees."
+      }
     ],
     bodega: {
       cost: 25000,

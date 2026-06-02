@@ -46,3 +46,19 @@ Add more random event variety.
 Add basic price history display for coins.
 Add small UI icons using cropped images or emoji placeholders.
 Add PWA files only after the base game works.
+
+
+Privacy rule
+Do not add personal local places, hometowns, addresses, or locations tied to the creator. Use only generic fictional locations or large well-known cities.
+
+
+Dark Terminals hookup system
+Keep Dark Terminals fictional and parody-only.
+Dark Terminals should use three hookup people, not real sites and not a generic market.
+Each hookup should have a different price, quality range, heat risk, delay, ghost chance, and bunk-good chance.
+Hookup prices should usually be lower than the current street price because the player already pays coin conversion fees and delivery risk.
+Do not add real dark web steps, real marketplace names, real crypto wallets, or real illegal purchasing details.
+
+
+Version 0.1.5 note
+Keep the How to Play screen and Settings tutorial card working. New players should be able to understand the basic loop without reading external instructions.

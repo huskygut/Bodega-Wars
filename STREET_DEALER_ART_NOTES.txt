@@ -1,0 +1,5 @@
+Added portrait art for the three street hookups and wired those images into the Market screen cards.
+
+Cheder Bob
+Crazy Eyes
+Walter Whiteboard (hat version)

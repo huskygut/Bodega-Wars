@@ -1,0 +1,27 @@
+Bodega Wars v0.1.4 mobile layout notes
+
+Changed by request after mobile testing.
+
+What changed
+
+The End Day button is now easy to find.
+A quick action bar appears under the player stats on every active game screen.
+The quick action bar includes End Day, Market, Safe, Travel, and Dark Terminals.
+On phones, End Day becomes the large full-width top button in the quick action bar.
+
+The mobile navigation is now always visible as a horizontal scroll row.
+The player no longer has to open a hidden menu just to move between screens.
+
+Mobile layout improvements
+
+Stats stay in a compact two-column grid on phones.
+Buttons are larger and easier to tap.
+Inputs and dropdowns are full width on small screens.
+Hero and screen images are shorter on phones so the game controls show sooner.
+Tables still scroll sideways when needed, but the touch areas are larger.
+
+Developer note
+
+Keep the game web-app first.
+Do not re-add private/local place names.
+Do not bury End Day at the bottom of a page again.

@@ -1,0 +1,37 @@
+Bodega Wars Dark Terminals hookup update
+
+Version 0.1.3 changes Dark Terminals from a vendor market into three fictional hookup people.
+
+The design goal is simple:
+Street buying is instant but costs more and raises street risk.
+Dark Terminals buying is cheaper but requires fake coins, waiting, and risk.
+
+Current hookups
+
+Uncle Modem
+Cheap hookup
+Accepts FraggleCoin
+Lowest prices
+Higher bunk chance
+Medium heat
+Slow delivery
+
+Packet Patty
+Balanced hookup
+Accepts OnionCoin
+Middle prices
+Middle quality
+Low to medium risk
+Fast delivery
+
+Shadow Sal
+Premium hookup
+Accepts DevilCoin
+Still cheaper than street
+Best quality
+Lowest heat
+Small bunk chance
+
+Bunk goods are handled as a game-only parody mechanic.
+When a shipment arrives, a bunk roll can reduce the usable quantity.
+No real-world sites, wallets, dark web steps, or real illegal buying instructions belong in this project.

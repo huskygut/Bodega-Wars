@@ -1,0 +1,186 @@
+Bodega Wars hosting instructions
+By Huskygut Studios
+
+Goal
+Host the game at:
+https://www.bodegawars.com
+
+Important files
+index.html must stay in the root of the repo.
+CNAME must stay in the root of the repo.
+CNAME should contain exactly:
+www.bodegawars.com
+
+Easy local test first
+1. Unzip the project.
+2. Open the bodega-wars folder.
+3. Double-click index.html.
+4. The game should open in your browser.
+
+GitHub repo setup
+1. Go to GitHub.
+2. Create a new repository.
+3. Repository name:
+bodega-wars
+4. Visibility:
+Public
+5. License:
+None
+6. Add README:
+You can choose yes or no. This project already includes README.txt.
+7. Create repository.
+
+Upload without using command line
+1. Open the new GitHub repo in your browser.
+2. Click Add file.
+3. Click Upload files.
+4. Drag the contents of the bodega-wars folder into GitHub.
+5. Make sure index.html is at the repo root, not inside an extra nested folder.
+6. Commit the upload.
+
+Correct repo root layout
+Your GitHub repo should look like this at the top level:
+index.html
+README.txt
+HOSTING_INSTRUCTIONS.txt
+CODEX_TASK.txt
+CNAME
+.nojekyll
+css/
+js/
+assets/
+
+Wrong layout
+Do not upload it so the repo looks like this:
+bodega-wars/index.html
+bodega-wars/css/
+bodega-wars/js/
+
+If GitHub shows an extra bodega-wars folder before index.html, GitHub Pages may not work from root.
+
+Turn on GitHub Pages
+1. Go to the repo.
+2. Click Settings.
+3. Click Pages.
+4. Under Build and deployment, set Source to:
+Deploy from a branch
+5. Set Branch to:
+main
+6. Set Folder to:
+/root
+7. Click Save.
+
+Custom domain setup in GitHub
+1. Go to the repo.
+2. Click Settings.
+3. Click Pages.
+4. Find Custom domain.
+5. Enter:
+www.bodegawars.com
+6. Click Save.
+
+DNS setup for www
+At the DNS provider for bodegawars.com, add this record:
+
+Type:
+CNAME
+
+Name:
+www
+
+Target:
+huskygut.github.io
+
+TTL:
+Auto
+
+Cloudflare note
+If using Cloudflare, set the www CNAME to DNS only while setting it up.
+That is the gray cloud, not the orange cloud.
+
+HTTPS setup
+1. Wait for the GitHub Pages DNS check to pass.
+2. Go back to Settings.
+3. Click Pages.
+4. Check Enforce HTTPS.
+
+If Enforce HTTPS is grayed out
+Wait and check again later.
+GitHub may need time to issue the certificate.
+
+Optional root domain redirect
+The main required domain is:
+https://www.bodegawars.com
+
+If you also want bodegawars.com to redirect to www, add these A records for the root domain:
+
+Type: A
+Name: @
+Value: 185.199.108.153
+
+Type: A
+Name: @
+Value: 185.199.109.153
+
+Type: A
+Name: @
+Value: 185.199.110.153
+
+Type: A
+Name: @
+Value: 185.199.111.153
+
+Do not use a wildcard record like:
+*.bodegawars.com
+
+Do not put the repo name in DNS
+Correct CNAME target:
+huskygut.github.io
+
+Wrong CNAME target:
+huskygut.github.io/bodega-wars
+
+Quick test checklist
+Open:
+https://www.bodegawars.com
+
+Then test:
+New Game
+Buy goods
+Sell goods
+Travel
+Safe House
+Crypto Carl
+Dark Terminals
+Loan Shark Larry
+Your Bodega
+Save game
+Refresh page
+Continue game
+Export save
+Import save
+Rename goods
+
+Friend testing
+Send your friend:
+https://www.bodegawars.com
+
+Ask them to test on:
+Desktop browser
+Phone browser
+Different screen size
+
+Ask them to report:
+What browser they used
+What phone or computer they used
+What button they clicked before the bug
+What happened
+Screenshot if possible
+
+Safety note
+Bodega Wars is fictional parody.
+Do not add real dark web instructions.
+Do not add real crypto wallet steps.
+Do not add real illegal marketplace names.
+Do not add real-world buying guidance.
+Credit should stay Huskygut Studios.

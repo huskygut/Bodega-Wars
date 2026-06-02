@@ -1,0 +1,34 @@
+Bodega Wars v0.1.5 How to Play notes
+
+Changed by request after mobile testing.
+
+What changed
+
+Added a How to Play screen to the game.
+
+The How to Play screen explains:
+
+Buy low and sell high.
+Use the Safe House to protect cash and goods.
+Watch Heat, Turf Pressure, and Suspicion.
+Use Crypto Carl for the fake coin ladder.
+Use Dark Terminals for lower-price fictional hookups with risk.
+Buy the bodega to unlock Register Cash and daily profit.
+Use End Day to advance prices, shipments, bills, interest, and events.
+
+Where it appears
+
+Main Street title screen has a How to Play button.
+The left/mobile navigation has a How to Play option.
+Settings has a How to Play card with an Open How to Play button.
+New Game opens the How to Play screen first so new players are not dumped straight into the market.
+
+Mobile note
+
+The tutorial uses stacked cards on phones and keeps the Start Playing button large enough to tap easily.
+
+Developer note
+
+Keep the tutorial short and beginner-friendly.
+Update it whenever major game systems change.
+Do not add personal local place names.

@@ -1,0 +1,12 @@
+Bodega Wars v0.1.2 privacy cleanup
+
+Changed city data to large generic cities only.
+Removed small/personal local place names from the playable city list.
+Changed the starting city to New York.
+Added save migration so older saves with old city ids fall back to safe large-city ids.
+Replaced the City Map art with a generic large-city route map.
+Added a Codex note telling future updates not to add personal local places.
+
+Public credit remains Huskygut Studios.
+
+Version 0.1.3 keeps the privacy city fix and changes Dark Terminals to fictional hookup people with lower-than-street pricing, quality differences, and bunk-good risk.
